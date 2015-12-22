@@ -1,0 +1,265 @@
+
+
+
+/*div {
+    border: 1px solid Choc*/
+
+
+
+
+
+/* fonts */
+
+body {
+	font-family: 'Droid Serif', serif;
+	-webkit-font-smoothing: antialiased;
+	
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	-webkit-font-smoothing: antialiased;
+	
+}
+
+
+/*border box*/
+
+
+  /*-- setting border box on all elements inside the grid --*/
+    .grid-container *{
+        box-sizing: border-box; 
+    }
+
+ 
+ /*navigation*/
+
+
+.top-navigation {
+	background-color: #f4f4f4;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	font-family:'Oswald', sans-serif;
+
+
+}
+
+.top-navigation > .content {
+	
+	height: 5rem;
+	float: right; 
+}
+
+.top-navigation .links {
+	float: right;
+	margin-top: 2rem;
+	font-size: 1.25rem;
+	color: #0d0d0d;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	padding: 0 3rem;
+	font-weight: 200;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+
+	}
+
+.top-navigation .links .active {
+	color: #5b5b5b;
+	font-weight: 600;
+	font-style: bold;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #5b5b5b;
+}
+
+
+/*introduction section */
+
+.introduction {
+	background-image: url('../images/dunes1.jpg');
+	
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	display: block;
+	font-weight: 300;
+	overflow: auto;
+}
+
+.content {
+	vertical-align: center;
+	text-align: center;
+	width: 970px;
+	margin: 0 auto;
+	/*padding: 0px 15px;*/
+	color: #f4f4f4;
+
+}
+
+.introduction h1 {
+ 	margin-top: 24.5rem;
+    font-size: 5.125rem;
+    margin-bottom: 0;
+}
+
+.introduction h3 {
+	font-size: 2.5rem;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/* About Me Section */
+.about {
+
+	margin-top: 0rem;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	background-color: #282828;
+
+
+}
+
+.about > .content {
+	
+	padding-left: 3rem;
+	padding-right: 3rem;
+	font-size: 1.5rem;
+	max-width: 700px;
+	font-weight: 200;
+	text-align: center;
+
+}
+
+.about .content h2 {
+	font-size: 4rem;
+	margin-top: 0;
+	font-weight: 200;
+	text-align: center;
+}
+
+.about .content li {
+	display: inline-block;
+	
+}
+
+.face {
+	margin: 0 auto;
+	max-width: 600px;
+
+}
+
+.face .hands {
+	margin: 0 auto;
+	max-width: 600px;
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+
+}
+
+
+
+
+
+/* Work Section */
+
+.work {
+padding-top: 10rem;
+padding-bottom: 10rem;
+background-color: #8e8e8e;
+
+
+}
+
+
+.work h2 {
+	font-size: 6rem;
+	margin: 0;
+	font-weight: 200;
+}
+
+
+
+
+
+.work .content {
+	color: #f4f4f4;
+}
+
+.work .links {
+	margin: 0 auto;
+
+}
+
+
+
+
+.work .links li {
+	
+	list-style: none;
+	display: inline-block;
+	padding: 30px;
+	margin: 2rem auto;
+	max-width: 600px;
+	
+}
+
+/*
+.work .links ul {
+	padding-bottom: 2rem;
+}
+*/
+/*.work .links .times, .karma, .info {
+	border: 5px solid black;
+	border-radius: 12px;
+	padding: 0;
+}
+*/
+
+
+
+
+
+
+/*footer*/
+
+.social {
+	background-color: #f4f4f4;
+	overflow: auto;
+	padding-bottom: 1.375rem;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+
+.social .icons > li {
+	list-style: none;
+	display: inline-block;
+	padding: 0.625rem 1rem;
+}
+
+.social .content {
+	color: black;
+}
+
+.social .facebook {
+	color: white;
+}
+
+.copy {
+	padding-left: 20px;
+}
+
+*/
+
